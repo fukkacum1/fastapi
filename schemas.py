@@ -2,7 +2,6 @@ from pydantic import BaseModel, ConfigDict
 from typing import Optional
 
 
-
 class STaskAdd(BaseModel):
     name: str
     description: Optional[str] = None
